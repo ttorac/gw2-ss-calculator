@@ -4,68 +4,16 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Canvas Test</title>
-        <link rel="stylesheet" href="style.css" />
+        <title>T6 Crafting Calculator</title>
+        <link rel="stylesheet" href="styles/mainstyle.css" />
     </head>
     <body>
         <h1>T6 Crafting Calculator</h1>
 
         <div id="root">
-            <!-- <p>Assuming SS price = 60g per 140</p> -->
             <div id="breakdown"></div>
         </div>
 
-        <table id="prototypeTable" style="display: none;">
-            <tr>
-                <th>Avg. output</th>
-                <th>Product</th>
-                <th colspan="2">Material/Cost Breakdown (buy price)</th>
-                <th colspan="2">Math Breakdown</th>
-                <th>Gold/1 shard</th>
-            </tr>
-            <tr>
-                <!-- output -->
-                <td class="hl">
-                    <span class="big">7</span><br />
-                    <span>2g 40s 10c</span>
-                </td>
-                <!-- product -->
-                <td>Vial of Powerful Blood</td>
-                <!-- material -->
-                <td class="material">
-                    <span>1x Vial of Powerful Blood</span><br />
-                    <span>50x T5</span><br />
-                    <span>5x Crystalline Dust</span><br />
-                    <span>5x Philosopher's Stone (0.5 shard)</span>
-                </td>
-                <!-- cost break -->
-                <td class="cost rt">
-                    <span>34s 30c</span><br />
-                    <span>1g 15s 50c</span><br />
-                    <span>49s 20c</span><br />
-                    <span>0</span><br />
-                    <span class="sum">1g 99s 00c</span>
-                </td>
-                <!-- math break -->
-                <td class="math">
-                    <span>+Output Qty Value</span><br />
-                    <span>-Recipe Material</span><br />
-                    <span>-TP Fee</span><br />
-                    <span class="sum">Gold / 0.5 Shard</span>
-                </td>
-                <td class="math rt">
-                    <span>+2g 40s 10c</span><br />
-                    <span>-1g 99s 00c</span><br />
-                    <span>-36s 02c</span><br />
-                    <span class="sum">10s 44c</span>
-                </td>
-                <!-- gold/shard -->
-                <td class="hl">
-                    <span class="big">20s 88c</span>
-                </td>
-            </tr>
-        </table>
-
-        <script type="module" src="script.js"></script>
+        <script type="module" src="scripts/main.js"></script>
     </body>
 </html>
