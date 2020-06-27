@@ -1,5 +1,5 @@
 
-import EMap from '/EnhancedMap.js'
+import EMap from './EnhancedMap.js'
 
 let t5Map = new EMap()
 t5Map.set(24294, 'Vial of Potent Blood')

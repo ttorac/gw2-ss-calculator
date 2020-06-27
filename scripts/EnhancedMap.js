@@ -1,4 +1,4 @@
-export default class webMap extends Map {
+export default class WebMap extends Map {
     constructor() {
         super();
     }
